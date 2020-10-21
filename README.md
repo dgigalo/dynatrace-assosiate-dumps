@@ -179,5 +179,29 @@ Dump questions from over the internet with russian explanation.
 <details>
   <summary>Правильный ответ</summary>
  
-   ### 100 <br>
-</details>    
+   ### A physical or virtualized operating system.The source of compute, memory, and storage resources. <br>
+</details>   
+
+### How long is time series data held with a resolution of 5 mins?
+<details>
+  <summary>Правильный ответ</summary>
+ 
+   ### 28 <br>
+   * Dynatrace позволяет вам отображать любой запрос, который он обнаруживает во время мониторинга. По умолчанию подробная история всех запросов сохраняется в течение 10 дней. Долгосрочные исторические данные сохраняются для запросов, которые вы вручную определяете как ключевые запросы. Трендовые показатели для ключевых запросов сохраняются постоянно, однако детализация долгосрочной истории постепенно снижается с течением времени:
+   * 0-14 дней: 1-минутного(1m) интервала детализации доступны для визуализации на дашборде и доступа к API.
+   * 14-28 дней: 5-минутный(5m) интервал детализации доступны для визуализации на дашборде и доступа к API.
+   * 28-400 дней: 1-часовой(1h) интервал детализации доступен для визуализации на дашборде и доступа к API.
+   * 400 дней-5 лет: 1-дневная(1d) гранулярность интервала доступна для визуализации на дашборде и доступа к API.
+</details> 
+
+### What percentage of CPU consumed by the oneAgent does dynatrace, start to limit network monitoring?
+ * 2.5%
+ * 0.5%
+ * 5%
+ * 1%
+<details>
+  <summary>Правильный ответ</summary>
+ 
+   ### 5% <br>
+   
+</details> 
