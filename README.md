@@ -139,3 +139,45 @@ Dump questions from over the internet with russian explanation.
    * 28-400 дней: 1-часовой(1h) интервал детализации доступен для визуализации на дашборде и доступа к API.
    * 400 дней-5 лет: 1-дневная(1d) гранулярность интервала доступна для визуализации на дашборде и доступа к API.
 </details> 
+
+### For a new application must run for at leave X% of the week before alerting (workload spikes/drops) will take place. What is X?
+<details>
+  <summary>Правильный ответ</summary>
+ 
+   ### 100 <br>
+</details>  
+
+### How long is time series data held with a resolution of 1 minute?
+ * 14 days
+ * 7 days
+ * 1 day
+ * 1 hour
+<details>
+  <summary>Правильный ответ</summary>
+ 
+   ### 14 <br>
+   * Dynatrace позволяет вам отображать любой запрос, который он обнаруживает во время мониторинга. По умолчанию подробная история всех запросов сохраняется в течение 10 дней. Долгосрочные исторические данные сохраняются для запросов, которые вы вручную определяете как ключевые запросы. Трендовые показатели для ключевых запросов сохраняются постоянно, однако детализация долгосрочной истории постепенно снижается с течением времени:
+   * 0-14 дней: 1-минутного(1m) интервала детализации доступны для визуализации на дашборде и доступа к API.
+   * 14-28 дней: 5-минутный(5m) интервал детализации доступны для визуализации на дашборде и доступа к API.
+   * 28-400 дней: 1-часовой(1h) интервал детализации доступен для визуализации на дашборде и доступа к API.
+   * 400 дней-5 лет: 1-дневная(1d) гранулярность интервала доступна для визуализации на дашборде и доступа к API.
+</details>  
+
+### The baseline cube is calculated X hours after your application or service is initially detected by Dynatrace OneAgent. What is X?
+<details>
+  <summary>Правильный ответ</summary>
+ 
+   ### 2 <br>
+   * Dynatrace проверяет, когда ваши приложения и службы обнаруживаются агентом OneAgent. Базовый куб вычисляется через два часа после первоначального обнаружения вашего приложения или службы, чтобы анент OneAgent мог проанализировать два часа фактического трафика (предварительные значения откуда исходит ваш трафик). Расчет связанных значений куба(reference cube) повторяется каждый день, чтобы Dynatrace мог продолжать адаптироваться к изменениям вашего трафика.
+</details>  
+
+### Choose statements that define a host(Multiple choice)?
+  * Physical hardware
+  * The source of compute, memory, and storage resources
+  * A physical or virtualized operating system
+  
+<details>
+  <summary>Правильный ответ</summary>
+ 
+   ### 100 <br>
+</details>    
