@@ -85,7 +85,7 @@ Dump questions from over the internet with russian explanation.
 <details>
   <summary>Правильный ответ</summary>
  
-   ### Application. Service. Infrastructure <br>
+   ### Sundays at midnight <br>
    * Отчеты о качестве обслуживания формируются каждую неделю по воскресеньям в полночь. Каждый отчет о качестве обслуживания суммирует результаты мониторинга, собранные Dynatrace за последнюю неделю. Каждый отчет содержит обзор ваших приложений, сервисов, использования инфраструктуры, проблем производительности и оценка влияния проблем производительности.
 </details>
 
@@ -203,5 +203,43 @@ Dump questions from over the internet with russian explanation.
   <summary>Правильный ответ</summary>
  
    ### 5% <br>
-   
+</details> 
+
+### What is the port for communicating from agent to ActiveGate?
+<details>
+  <summary>Правильный ответ</summary>
+ 
+   ### 9999 <br>
+   * По умолчанию порт 99992. Может быть вручную перенастроен в файле ActiveGate custom.properties.
+</details> 
+
+### What are the characteristics of a service (Multiple choice)
+ * How software is presented to the end user Related terms: Browser, User Action, Session, JavaScript, Waterfall
+ * A set of code that accepts requests and returns results
+ * The result of instrumenting a process
+ * A means for code to request computing resources
+ * The “code layer” which requires “deep dive”
+<details>
+  <summary>Правильный ответ</summary>
+ 
+   ### A set of code that accepts requests and returns results. The “code layer” which requires “deep dive”. The result of instrumenting a process. <br> 
+</details> 
+
+### Can you mix servers of different hardware specs in a cluster?
+<details>
+  <summary>Правильный ответ</summary>
+ 
+   ### Нет <br>
+   * Все ноды в кластере должны иметь одинаковую аппаратную конфигурацию.
+</details> 
+
+### Key Requests get special privileges these are(Multiple choice):
+ * Better Searching - think tagging
+ * Historical data guaranteed – data kept in Cassandra
+ * Custom thresholds – think SLAs
+ * Always baselined by AI – more on that during problems
+<details>
+  <summary>Правильный ответ</summary>
+ 
+   ### Custom thresholds – think SLAs. Historical data guaranteed – data kept in Cassandra. Always baselined by AI – more on that during problems. <br>
 </details> 
